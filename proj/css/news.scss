@@ -1,0 +1,144 @@
+@import 'variable.scss';
+
+.container_content{
+float: left;
+}
+
+.content__logo{
+text-align: center;
+border-bottom-color: $panel;
+border-bottom-style: solid;
+border-bottom-width: 5px;
+
+
+}
+
+.content__back{
+    position: relative;
+}
+
+.content__text{
+    position: relative;
+    color: $text-color;
+    text-align: center;
+    //width: 100%;
+}
+.content__text__sm{
+    position: relative;
+    color: $text-color;
+    text-align: center;
+}
+
+@media (max-width:575px){
+    .content__text{
+        top: -120px;
+        font-size: 34px;
+    }
+    .content__logo{
+        height: 240px;
+    }
+    .content__text__sm{
+        top: -130px;
+        font-size: 20px;
+    }
+ 
+}
+@media (min-width:576px) and (max-width:767px){
+    .content__logo{
+        height: 305px;
+    }
+    .content__text{
+        top: -160px;;
+        font-size: 40px;
+    }
+    .content__text__sm{
+        top: -170px;
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:1199px){
+    .content__logo{
+        height: 390px;
+    }
+    .content__text__sm{
+        top: -195px;
+    font-size: 25px;
+    }
+    .content__text{
+        top: -190px;
+        font-size: 44px;
+    }
+
+}
+@media (min-width:1200px) and (max-width:1599px){
+    .content__logo{
+        height: 580px;
+    }
+    .content__text__sm{
+        top: -280px;
+        font-size: 30px;
+    }
+    .content__text{
+        top: -290px;
+        font-size: 54px;
+    }
+
+}
+
+@media (min-width:1600px) {
+    .content__logo{
+        height: 580px;
+    }
+    .content__text__sm{
+        top: -280px;
+        font-size: 30px;
+    }
+    .content__text{
+        top: -290px;
+        font-size: 54px;
+    }
+
+}
+
+.content__all-news, .content__news, .content__photo-news, .content__news-name, .content__news-text{
+float: left;
+}
+
+.content__all-news
+{
+   /* margin-top: 20px;*/
+}
+
+.content__photo-news, .content__news-name, .content__news-text{
+    box-sizing: border-box;
+}
+
+.content__photo-news{
+    padding: 20px;
+}
+
+.content__news-name{
+    padding: 5px 0 0 5px;
+}
+.content__news-text{
+    margin-bottom: 15px;
+}
+.content__news{
+    margin-top: 20px;
+    border-bottom-width: 2px;
+    border-bottom-color: $panel;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: $panel;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content__paggination{
+    text-align: center;
+    margin-top: 15px;
+    float: left;
+}
