@@ -1,0 +1,230 @@
+@import 'variable.scss';
+
+.container_content{
+float: left;
+}
+
+.content__logo{
+    text-align: center;
+    border-bottom-color: $panel;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    
+    .content__back{
+        position: relative;
+    }
+    
+
+.content__text{
+    position: relative;
+    color: $text-color;
+    text-align: center;
+    //width: 100%;
+}
+
+.content__text__sm{
+    position: relative;
+    color: $text-color;
+    text-align: center;
+}
+
+@media (max-width:575px){
+    .content__logo{
+        height: 240px;
+    }
+    .content__text__sm{
+        top: -130px;
+        font-size: 20px;
+    }
+    .content__text{
+        top: -120px;
+        font-size: 34px;
+    }
+    form div label{
+        text-align: left;
+        float: left;
+        margin-left: 10px;
+    }
+    .content__form-t{
+        /* float: left;*/
+         text-align: center;
+     }
+     .content__button_find-t{
+    
+        margin: 10px 0px 10px 0px;
+    
+     }
+     .content__result-search{
+        box-sizing: border-box;
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+    .content__logo{
+        height: 305px;
+    }
+    .content__text__sm{
+        top: -170px;
+        font-size: 20px;
+    }
+    .content__text{
+        top: -160px;;
+        font-size: 40px;
+    }
+   
+    form div label{
+        text-align: left;
+        float: left;
+        margin-left: 10px;
+    }
+    .content__form-t{
+        /* float: left;*/
+         text-align: center;
+     }
+     .content__button_find-t{
+    
+        margin: 10px 0px 10px 0px;
+    
+     }
+
+     .content__result-search{
+         box-sizing: border-box;
+     }
+}
+
+@media (min-width:768px) and (max-width:1199px){
+    .content__logo{
+        height: 390px;
+    }
+    .content__text__sm{
+        top: -195px;
+    font-size: 25px;
+    }
+    .content__text{
+        top: -190px;
+        font-size: 44px;
+    }
+
+    .content__button_find-t{
+        float: right;
+        margin: 10px 90px 10px 0px;
+     }
+
+}
+@media (min-width:1200px) and (max-width:1599px){
+    .content__logo{
+        height: 580px;
+    }
+    .content__text__sm{
+        top: -280px;
+        font-size: 30px;
+    }
+    .content__text{
+        top: -290px;
+        font-size: 54px;
+    }
+    .content__button_find-t{
+        float: right;
+        margin: 10px 90px 10px 0px;
+     }
+}
+
+@media (min-width:1600px) {
+    .content__logo{
+        height: 580px;
+    }
+    .content__text__sm{
+        top: -280px;
+        font-size: 30px;
+    }
+    .content__text{
+        top: -290px;
+        font-size: 54px;
+    }
+
+    .content__button_find-t{
+        float: right;
+        margin: 10px 90px 10px 0px;
+     }
+}
+
+.content__find-t{
+    float: left;
+    background-color: $panel;
+    color: $text-color;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content__direction, .content__from-t , .content__to-t, .content__data-from,
+ .content__data_to, .content__type ,.content__old, .content__child  {
+    float: left;
+    /* text-align: center; */
+    font-size: 18px;
+    /* margin: 5px 5px 5px 5px; */
+    box-sizing: border-box;
+    padding: 10px;
+ }
+ 
+ .content__direction{
+    text-align: left;
+    margin-left: 10px;
+ }
+
+ .content__direction-one, .content__direction-two{
+    margin: 10px 5px 0px 0px;
+  //  text-align: left;
+ 
+ }
+
+ .content__direction-two{
+     margin-left: 40px;
+ }
+
+ .content__button_find-t{
+    
+ 
+    border: 2px solid $panel;
+    border-radius: 10px;
+    height: 40px;
+ }
+
+.content__result-search{
+    color: $panel;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    float: left;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    border-top-color: $panel;
+    border-top-style: solid;
+    border-top-width: 5px;
+}
+
+.content__table-t{
+    float: left;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+th{
+    color: $text-color;
+    background-color: $panel;
+    font-weight: bold;
+}
+
+th, tr, td{
+    border: 2px $panel solid;
+}
+
+.content__button-buy{
+    border: 1px black solid;
+    border-radius: 7px;
+
+    box-shadow: 7px 5px 15px $light;
+}

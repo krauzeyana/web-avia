@@ -1,0 +1,21 @@
+@import 'variable.scss';
+.content__data{
+float: left;
+margin-top: 10px;
+}
+.content__datatype{
+color:$panel;
+border-color: $panel;
+border-width: 2px;
+
+}
+
+.content__buy-ticket{
+    margin-top: 60px;
+    color: $panel
+}
+
+.content__data{
+    margin-top: 15px;
+    font-size: 18px;
+}

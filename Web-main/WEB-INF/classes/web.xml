@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee">
+    <display-name>Тестовый пример</display-name>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>IndexServlet</servlet-name>
+        <servlet-class>IndexServlet</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IndexServlet</servlet-name>
+        <url-pattern>/index.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AutoServlet</servlet-name>
+        <servlet-class>AutoServlet</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AutoServlet</servlet-name>
+        <url-pattern>/Autorizate.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FListServlet</servlet-name>
+        <servlet-class>FListServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FListServlet</servlet-name>
+        <url-pattern>/flight.html</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>FEditServlet</servlet-name>
+        <servlet-class>FEditServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FEditServlet</servlet-name>
+        <url-pattern>/Fedit.html</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>FSaveServlet</servlet-name>
+        <servlet-class>FSaveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FSaveServlet</servlet-name>
+        <url-pattern>/Fsave.html</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>FDeleteServlet</servlet-name>
+        <servlet-class>FDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FDeleteServlet</servlet-name>
+        <url-pattern>/Fdelete.html</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>TListServlet</servlet-name>
+        <servlet-class>TListServlet</servlet-class>
+        <load-on-startup>2</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TListServlet</servlet-name>
+        <url-pattern>/ticket.html</url-pattern>
+    </servlet-mapping>
+
+
+
+
+    <servlet>
+        <servlet-name>TEditServlet</servlet-name>
+        <servlet-class>TEditServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TEditServlet</servlet-name>
+        <url-pattern>/Tedit.html</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TSaveServlet</servlet-name>
+        <servlet-class>TSaveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TSaveServlet</servlet-name>
+        <url-pattern>/Tsave.html</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>TDeleteServlet</servlet-name>
+        <servlet-class>TDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TDeleteServlet</servlet-name>
+        <url-pattern>/Tdelete.html</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>UListServlet</servlet-name>
+        <servlet-class>UListServlet</servlet-class>
+        <load-on-startup>3</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UListServlet</servlet-name>
+        <url-pattern>/users.html</url-pattern>
+    </servlet-mapping>
+
+
+
+
+    <servlet>
+        <servlet-name>UEditServlet</servlet-name>
+        <servlet-class>UEditServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UEditServlet</servlet-name>
+        <url-pattern>/Uedit.html</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>USaveServlet</servlet-name>
+        <servlet-class>USaveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>USaveServlet</servlet-name>
+        <url-pattern>/Usave.html</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>UDeleteServlet</servlet-name>
+        <servlet-class>UDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UDeleteServlet</servlet-name>
+        <url-pattern>/Udelete.html</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>GLListServlet</servlet-name>
+        <servlet-class>GLListServlet</servlet-class>
+        <load-on-startup>4</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GLListServlet</servlet-name>
+        <url-pattern>/gallary.html</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>GLEditServlet</servlet-name>
+        <servlet-class>GLEditServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GLEditServlet</servlet-name>
+        <url-pattern>/GLedit.html</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>GLSaveServlet</servlet-name>
+        <servlet-class>GLSaveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GLSaveServlet</servlet-name>
+        <url-pattern>/GLsave.html</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>GLDeleteServlet</servlet-name>
+        <servlet-class>GLDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GLDeleteServlet</servlet-name>
+        <url-pattern>/GLdelete.html</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>NListServlet</servlet-name>
+        <servlet-class>NListServlet</servlet-class>
+        <load-on-startup>5</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NListServlet</servlet-name>
+        <url-pattern>/news.html</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>NEditServlet</servlet-name>
+        <servlet-class>NEditServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NEditServlet</servlet-name>
+        <url-pattern>/Nedit.html</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>NSaveServlet</servlet-name>
+        <servlet-class>NSaveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NSaveServlet</servlet-name>
+        <url-pattern>/Nsave.html</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>NDeleteServlet</servlet-name>
+        <servlet-class>NDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NDeleteServlet</servlet-name>
+        <url-pattern>/Ndelete.html</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>GListServlet</servlet-name>
+        <servlet-class>GListServlet</servlet-class>
+        <load-on-startup>6</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GListServlet</servlet-name>
+        <url-pattern>/guests.html</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>GEditServlet</servlet-name>
+        <servlet-class>GEditServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GEditServlet</servlet-name>
+        <url-pattern>/Gedit.html</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>GSaveServlet</servlet-name>
+        <servlet-class>GSaveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GSaveServlet</servlet-name>
+        <url-pattern>/Gsave.html</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>GDeleteServlet</servlet-name>
+        <servlet-class>GDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GDeleteServlet</servlet-name>
+        <url-pattern>/Gdelete.html</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/login.html</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/logout.html</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>SecurityFilter</filter-name>
+        <filter-class>SecurityFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>/Uedit.html</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>/Usave.html</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>/Udelete.html</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>/Fedit.html</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>/Fsave.html</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>/Fdelete.html</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>/Tedit.html</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>/Tsave.html</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>/Tdelete.html</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>/GLedit.html</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>/GLsave.html</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>/GLdelete.html</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>/Gedit.html</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>/Gsave.html</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>/Gdelete.html</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>/news.html</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+    <filter-name>SecurityFilter</filter-name>
+    <url-pattern>/Nedit.html</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>/Nsave.html</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>/Ndelete.html</url-pattern>
+    </filter-mapping>
+    <error-page>
+        <exception-type>javax.servlet.ServletException</exception-type>
+        <location>/WEB-INF/jsp/error.jsp</location>
+    </error-page>
+
+</web-app>

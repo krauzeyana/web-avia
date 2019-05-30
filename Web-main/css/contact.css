@@ -1,0 +1,54 @@
+.container_content {
+  float: left; }
+
+.content__logo {
+  text-align: center;
+  border-bottom-color: #1C1535;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.content__back {
+  position: relative; }
+
+.content__text {
+  position: relative;
+  color: white;
+  text-align: center; }
+
+@media (max-width: 575px) {
+  .content__text {
+    top: -120px;
+    font-size: 34px; } }
+@media (min-width: 576px) and (max-width: 767px) {
+  .content__text {
+    top: -160px;
+    font-size: 40px; } }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .content__text {
+    top: -190px;
+    font-size: 44px; } }
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .content__text {
+    top: -290px;
+    font-size: 54px; } }
+@media (min-width: 1600px) {
+  .content__text {
+    top: -290px;
+    font-size: 54px; } }
+.content__map, .content__contact {
+  float: left; }
+
+.content__phone, .content__mail, .content__addres, .content__time, .content__link {
+  float: left; }
+
+.content__contact {
+  padding-left: 30px;
+  box-sizing: border-box; }
+
+.content__map {
+  padding: 10px;
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=contact.css.map */

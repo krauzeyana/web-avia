@@ -1,0 +1,83 @@
+.container_header__panel {
+  background-color: #1C1535;
+  color: white;
+  vertical-align: center;
+  height: 50px; }
+
+.container_header__adress, .container_header__phone, .container_header__mail,
+.container_header__language, .container_header__link, .container_header__autorisation {
+  height: 31px;
+  margin: 12px 0 0 0; }
+
+.container_header__logo-adress, .container_header__logo-phone, .container_header__logo-mail, .container_header__change, .container_header__vk, .container_header__facebook,
+.container_header__twitter, .container_header__logo-autorisation {
+  height: 25px; }
+
+.container_header, .container_header__panel, .container_header__adress, .container_header__phone, .container_header__mail,
+.container_header__language, .container_header__link, .container_header__autorisation, .container_header__menu, .container_header__logo,
+.container_header__item {
+  float: left;
+  text-align: center; }
+
+li {
+  list-style-type: none; }
+
+.container_header__menu-items {
+  float: right;
+  margin-top: 30px; }
+
+.container_header__item {
+  font-size: 18px;
+  text-align: center; }
+
+.not-display {
+  display: none; }
+
+.header__menu-item {
+  float: left;
+  font-size: 24px;
+  margin-top: 7px;
+  margin-bottom: 7px; }
+
+.container_header__menu__collapse {
+  text-align: center; }
+
+.container_header__menu {
+  text-align: center; }
+
+@media (max-width: 768px) {
+  .md-not-display {
+    display: none; } }
+@media (max-width: 1199px) {
+  .sm-not-display {
+    display: none; } }
+.container_header__logo {
+  float: left; }
+
+.header__burger, .header__burger-close {
+  float: left;
+  margin-top: 17px; }
+
+.container_header__menu-list {
+  float: right; }
+
+.container_header__language {
+  margin-top: 16px; }
+
+.container_header__language a {
+  color: white;
+  font-size: 18px; }
+
+.container_header__language__choose {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.6) !important; }
+
+ul li a {
+  color: #1C1535;
+  text-decoration: none; }
+
+div nav a {
+  color: #1C1535;
+  text-decoration: none; }
+
+/*# sourceMappingURL=header.css.map */

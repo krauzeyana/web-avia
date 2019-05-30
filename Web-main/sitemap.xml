@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+  <url>
+    <loc>http://localhost:8080/WEB-MAIN/index.html</loc>
+    <lastmod>2019-05-30</lastmod>
+  </url>
+   <url>
+    <loc>http://localhost:8080/WEB-MAIN/timetable.html</loc>
+    <lastmod>2019-05-30</lastmod>
+  </url>
+   <url>
+    <loc>http://localhost:8080/WEB-MAIN/gallary.html</loc>
+    <lastmod>2019-05-30</lastmod>
+  </url>
+   <url>
+    <loc>http://localhost:8080/WEB-MAIN/about.html</loc>
+    <lastmod>2019-05-30</lastmod>
+  </url>
+   <url>
+    <loc>http://localhost:8080/WEB-MAIN/contact.html</loc>
+    <lastmod>2019-05-30</lastmod>
+  </url>
+   <url>
+    <loc>http://localhost:8080/WEB-MAIN/news.html</loc>
+    <lastmod>2019-05-30</lastmod>
+  </url>
+</urlset>

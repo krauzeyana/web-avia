@@ -1,0 +1,5 @@
+User-agent:*
+Disallow: /src/
+Sitemap:http://localhost:8080/WEB-MAIN/sitemap.xml
+Crawl-delay: 5
+Clean-param: page /news.html
